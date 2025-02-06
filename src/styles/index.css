@@ -1,0 +1,74 @@
+/* tailwind 4.0 버전 변경 */
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("../fonts/Pretendard-Regular.otf");
+}
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("../fonts/Pretendard-Bold.otf");
+}
+
+@font-face {
+  font-family: "Pretendard-Medium";
+  src: url("../fonts/Pretendard-Medium.otf");
+}
+
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("../fonts/Pretendard-SemiBold.otf");
+}
+
+@theme {
+  /* 폰트 */
+  --font-pretendard-regular: "Pretendard-Regular";
+  --font-pretendard-bold: "Pretendard-Bold";
+  --font-pretendard-medium: "Pretendard-Medium";
+  --font-pretendard-semi-bold: "Pretendard-SemiBold";
+
+  /* 색상 */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-100: #979797;
+  --color-gray-200: #666666;
+  --color-gray-300: #333333;
+  --color-gray-400: #515151;
+  --color-gray-500: #3a3a3a;
+
+  /* 카드 색상 */
+  --color-none-card: #666666;
+  --color-card: #ffffff;
+
+  /* 추가 버튼 */
+  --color-add-button-text: #0052ea;
+  --color-add-button-bg: #f1f1f1;
+
+  /* 태그 색상 */
+  --color-tag-text-1: #ff8d1a; /* 주황 */
+  --color-tag-text-2: #ffc300; /* 노랑 */
+  --color-tag-text-3: #28b463; /* 초록 */
+  --color-tag-text-4: #0052ea; /* 파랑 */
+  --color-tag-text-5: #7c0491; /* 보라 */
+  --color-tag-text-6: #666666; /* 회색 */
+  --color-tag-text-7: #ff0000; /* 빨강 */
+  --color-tag-bg-1: #ff8d1a;
+  --color-tag-bg-2: #ffc300;
+  --color-tag-bg-3: #28b463;
+  --color-tag-bg-4: #0052ea;
+  --color-tag-bg-5: #7c0491;
+  --color-tag-bg-6: #666666;
+  --color-tag-bg-7: #ff0000;
+
+  --breakpoint-sm: 540px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+}
+
+:root {
+  height: 100vh;
+  font-size: 10px;
+}
