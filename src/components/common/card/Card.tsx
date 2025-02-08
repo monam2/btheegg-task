@@ -4,9 +4,13 @@ interface CardProps {
   tagColor?: string;
 }
 
-export default function Card({ content, tag, tagColor }: CardProps) {
+export default function Card({
+  content,
+  tag,
+  tagColor,
+}: CardProps) {
   return (
-    <div className="w-[200px] bg-white rounded-lg p-4">
+    <div className="w-[200px] bg-white rounded-lg p-4 shadow-md">
       {tag && (
         <div
           className="inline-block px-3 pl-4 py-1 rounded-lg text-white font-pretendard-semi-bold text-sm mb-2"
@@ -14,7 +18,13 @@ export default function Card({ content, tag, tagColor }: CardProps) {
             backgroundColor: `var(--color-tag-bg-${tagColor})`,
           }}
         >
-          <p style={{ color: `var(--color-tag-text-${tagColor})` }}>{tag}</p>
+          <p
+            style={{
+              color: `var(--color-tag-text-${tagColor})`,
+            }}
+          >
+            {tag}
+          </p>
         </div>
       )}
       <p className="text-sm text-black">{content}</p>
