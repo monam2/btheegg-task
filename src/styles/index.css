@@ -39,7 +39,7 @@
   --color-gray-500: #3a3a3a;
 
   /* 카드 색상 */
-  --color-none-card: #666666;
+  --color-none-card: #e9e9e9;
   --color-card: #ffffff;
 
   /* 추가 버튼 */
@@ -54,21 +54,22 @@
   --color-tag-text-5: #7c0491; /* 보라 */
   --color-tag-text-6: #666666; /* 회색 */
   --color-tag-text-7: #ff0000; /* 빨강 */
-  --color-tag-bg-1: #ff8d1a;
-  --color-tag-bg-2: #ffc300;
-  --color-tag-bg-3: #28b463;
-  --color-tag-bg-4: #0052ea;
-  --color-tag-bg-5: #7c0491;
-  --color-tag-bg-6: #666666;
-  --color-tag-bg-7: #ff0000;
+  --color-tag-bg-1: #fef0e6;
+  --color-tag-bg-2: #fef7dc;
+  --color-tag-bg-3: #e9fee1;
+  --color-tag-bg-4: #f1f6fd;
+  --color-tag-bg-5: #f5f2f6;
+  --color-tag-bg-6: #f5f5f5;
+  --color-tag-bg-7: #fef0f0;
 
   --breakpoint-sm: 540px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1200px;
+
+  --shadow-custom: "0 3px 10px rgba(0, 0, 0, 0.06)";
 }
 
 :root {
   height: 100vh;
-  font-size: 10px;
 }
